@@ -33,6 +33,8 @@
   },
   "scripts": {
     "build": "babel -d lib src",
+    "clean": "rm -rf lib",
+    "prepublish": "npm-run-all clean build",
     "test": "npm-run-all test:*",
     "test:ava": "ava",
     "test:example": "cd ./example/ && ls | xargs -tL1 babel-node"
