@@ -1,7 +1,7 @@
 {
   "name": "redp",
   "description": "red phosphorus - patter match library for ES2015 era",
-  "version": "1.0.0",
+  "version": "1.0.1-dev",
   "author": "TSUYUSATO Kitsune <make.just.on@gmail.com>",
   "bugs": {
     "url": "https://github.com/makenowjust/redp/issues"
