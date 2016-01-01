@@ -53,6 +53,6 @@ This library uses ES2015 `Symbol` and `Map`. If you want to run this on not ES20
 
 ## license
 
-MIT License: <https://makenowjust.mit-license.org/2016>
+MIT License: <http://makenowjust.mit-license.org/2016>
 
 (C) 2016 TSUYUSATO Kitsune
