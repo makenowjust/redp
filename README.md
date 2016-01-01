@@ -4,6 +4,7 @@ Red Phosphorus - Patter Match Library for ES2015 Era
 
 [![Build Status](https://travis-ci.org/MakeNowJust/redp.svg?branch=master)](https://travis-ci.org/MakeNowJust/redp)
 
+
 ## example
 
 ```javascript
