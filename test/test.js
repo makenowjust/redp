@@ -88,6 +88,7 @@ test(t => {
   ['test', 42, false, undefined, null, Symbol('test'), ['hello', 'world'], {hello: 'world'}].forEach(val => {
     const pat = Pattern.from(val)
 
+    t.true(Pattern.is(pat))
     t.true(match(val, {[when(pat)]: true}))
     t.is(match('not match', {[when(pat)]: true}), undefined)
   })
@@ -98,6 +99,7 @@ test(t => {
   ].forEach(([pat, val]) => {
     pat = Pattern.from(pat)
 
+    t.true(Pattern.is(pat))
     t.true(match(val, {[when(pat)]: true}))
     t.is(match('not match', {[when(pat)]: true}), undefined)
   })
@@ -107,6 +109,7 @@ test(t => {
   ;['and', 'or'].forEach(op => {
     const pat = Pattern[op](...pats)
 
+    t.true(Pattern.is(pat))
     t.true(match('==test==', {[when(pat)]: true}))
     t.is(match('not match', {[when(pat)]: true}), undefined)
   })

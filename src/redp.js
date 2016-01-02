@@ -82,9 +82,13 @@ export const Pattern = {
   _: mark([FLAGS.wild]),
   rest: REST,
 
+  is(object) {
+    return object && object[MARK]
+  },
+
   // Create pattern object from given `object`.
   from(object) {
-    if (object && object[MARK]) {
+    if (Pattern.is(object)) {
       return object
     }
 
