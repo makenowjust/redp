@@ -50,7 +50,7 @@ $ npm install --save redp
 ## API
 
 ```javascript
-import {match, when, Pattern} from 'redp`
+import {match, when, Pattern} from 'redp'
 ```
 
 ### `match(value, pattern)`
