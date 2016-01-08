@@ -99,7 +99,7 @@ export const Pattern = {
   },
 
   // Create regexp pattern.
-  regexp(regexp) { ...  },
+  regexp(regexp) { ... },
 
   // Create array pattern.
   array(array) { ... },
