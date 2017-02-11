@@ -1,5 +1,7 @@
 # redp
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/MakeNowJust/redp.svg)](https://greenkeeper.io/)
+
 Red Phosphorus - Pattern Match Library for ES2015 Era
 
 [![Build Status](https://travis-ci.org/MakeNowJust/redp.svg?branch=master)](https://travis-ci.org/MakeNowJust/redp)
